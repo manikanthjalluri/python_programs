@@ -1,0 +1,5 @@
+p=int(input())
+r=int(input())
+n=int(input())
+ci=p*(1+r/100)**n
+print(ci)
