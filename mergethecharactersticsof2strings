@@ -1,0 +1,9 @@
+a=input()
+b=input()
+i,j=0,0
+output=' '
+while i<len(a) or j<len(b):
+    output=output+a[i]+b[j]
+    i=i+1
+    j=j+1
+    print(output)
