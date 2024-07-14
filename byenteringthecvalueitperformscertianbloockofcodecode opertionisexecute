@@ -1,0 +1,16 @@
+c=int(input())
+a=int(input())
+b=int(input())
+if c==1:
+    temp=a+b
+    print(temp)
+    
+elif c==2:
+    temp=a-b
+    print(temp)
+elif c==3:
+    temp=a*b
+    print(temp)
+elif c==4:
+    temp=a/b
+    print(temp)
