@@ -1,0 +1,14 @@
+n=int(input())
+s=0
+rem=0
+t=n
+while(n>0):
+
+    rem=n%10
+    s=s+rem*rem*rem
+    n=n//10
+
+if(t==s):
+    print("the given no is amstrong")
+else:
+    print("the given no is not amstrong")
